@@ -20,7 +20,7 @@ body {
 .container-three,
 .container-four,
 .footer {
-    padding: 25px 150px 25px 150px;
+    padding: 25px 255px 25px 255px;
 }
 
 .container-top,
@@ -47,6 +47,7 @@ a {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 600;
 }
 
 .main-title-one {
@@ -63,6 +64,10 @@ a {
 button {
     background-color: #3882F6;
     color: white;
+    cursor: pointer;
+    padding: 6px 16px;
+    border-radius: 8px;
+    width: 120px;
 }
 
 .right-container {
@@ -107,12 +112,14 @@ button {
 .container-top {
     display: flex;
     flex-direction: column;
+    padding-bottom: 100px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .container-one {
@@ -124,31 +131,40 @@ button {
 .left-container,
 .right-container {
     flex: 1;
-    height: 300px;
-    width: 400px;
+    height: 230px;
+    width: 480px;
 }
 
 .right-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 15px;
 }
 
 .left-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-right: 15px;
 }
 
-button {
-    cursor: pointer;
-    padding: 8px 16px;
-    border-radius: 8px;
-}
 
 .sign-up {
     border: 1px solid #3882F6;
+    margin: 5px 0px 5px 0px;
 }
+
+.main-title-one {
+    margin-bottom: 5px;
+
+}
+
+.subtext-one {
+    margin: 5px 0px 5px 0px;
+
+}
+
 
 /* container two */
 
@@ -159,25 +175,30 @@ button {
     align-items: center;
 }
 
+.main-title-two {
+    margin: 25px 0px 45px 0px;
+
+}
+
 .card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 20px;
 
 }
 
 .info {
     display: flex;
-    gap: 52px;
     justify-content: center;
+    flex: 1;
 
 }
 
 .box {
-
-    height: 160px;
-    width: 160px;
+    height: 150px;
+    width: 150px;
     border: 5px solid #3882F6;
     border-radius: 8px;
 }
@@ -191,20 +212,35 @@ button {
 .container-three {
     display: flex;
     flex-direction: column;
+    margin: 70px 0px 70px 0px;
+    padding-top: 100px;
+    padding-bottom: 75px;
+
+
 }
 
 .author {
     display: flex;
     justify-content: flex-end;
+    margin-top: 20px;
+    margin-right: 100px;
+
 }
 
 /* .container-four */
+
+.container-four {
+    margin-bottom: 70px;
+
+}
 
 .item {
     background-color: #3882F6;
     border-radius: 8px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding: 50px;
 }
 
 .sign-up-two {
@@ -215,6 +251,7 @@ button {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 500;
+    margin-bottom: 10px;
 }
 
 .not-bold {
